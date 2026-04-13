@@ -69,12 +69,12 @@ Parameter =   HYDROMETSTATIONS			../smf_init_data/met/Master_LongTerm_Met.sdf
 Parameter =   TEMPLAPSE			-0.0065
 Parameter =   PRECLAPSE			0
 Parameter =   HILLALBOPT			0
-Parameter =   OUTFILENAME			results/longtermSMF_longterm
-Parameter =   OUTHYDROFILENAME			results/longtermSMF_longterm
+Parameter =   OUTFILENAME			results/longterm/SMF_longterm
+Parameter =   OUTHYDROFILENAME			results/longterm/SMF_longterm
 Parameter =   OUTHYDROEXTENSION			mrf
-Parameter =   NODEOUTPUTLIST			data/model/pnodes_all.dat
+Parameter =   NODEOUTPUTLIST			data/model/pnodes.dat
 Parameter =   HYDRONODELIST			
-Parameter =   OUTLETNODELIST			
+Parameter =   OUTLETNODELIST			data/model/qnodes.dat
 Parameter =   RESTARTMODE			0
 Parameter =   PARALLELMODE			0
 Parameter =   OPTVIZ			0
@@ -173,8 +173,8 @@ Hydrograph array size: 		2223
 
 Flow Output Files:
 
-Hydrograph File Name: 		'results/longtermSMF_longterm'
-Hydrograph Outlet Name: 		         longtermSMF_longterm
+Hydrograph File Name: 		'results/longterm/SMF_longterm'
+Hydrograph Outlet Name: 		                  SMF_longterm
 Hydrograph File Extension: 	mrf
 
 Channel Characteristics:
@@ -217,9 +217,21 @@ Part 5: Creating Output Files from 'SMF_longterm.in'
 Output Files:
 
 
->>>Outlet Node File  not found...
->>>No output for interior nodes will be written...
+Node of Interest ID: 	3202 has been set up...
 
+Node of Interest ID: 	1319 has been set up...
+
+Node of Interest ID: 	3375 has been set up...
+
+Node of Interest ID: 	3332 has been set up...
+
+Outlet of Interest ID: 	3202 has been set up...
+
+Outlet of Interest ID: 	1319 has been set up...
+
+Outlet of Interest ID: 	3375 has been set up...
+
+Outlet of Interest ID: 	3332 has been set up...
 
 
 Part 6: Creating Hydrologic System
@@ -271,6 +283,14 @@ Number of triangles: 		6981
 Number of active nodes: 	3398
 Number of active edges: 	19890
 
+Node of Interest ID: 	3202 has been set up...
+
+Node of Interest ID: 	1319 has been set up...
+
+Node of Interest ID: 	3375 has been set up...
+
+Node of Interest ID: 	3332 has been set up...
+
 Reading HydroMeteorological Station File '../smf_init_data/met/Master_LongTerm_Met.sdf'...
 
 Reading HydroMeteorological Data File '../smf_init_data/met/met_SMF_LongTerm_1.mdf'...
@@ -300,8 +320,8 @@ Hydrologic Simulation begins...
 
 
 
-Creating Hydrograph Output: 'results/longtermSMF_longterm2208_00.mrf'
-Creating Runoff Type Output: 'results/longtermSMF_longterm2208_00.rft'
+Creating Hydrograph Output: 'results/longterm/SMF_longterm2208_00.mrf'
+Creating Runoff Type Output: 'results/longterm/SMF_longterm2208_00.rft'
 
 	HOUR = 2208	MINUTE = 0
 
