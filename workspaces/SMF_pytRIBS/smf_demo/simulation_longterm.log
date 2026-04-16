@@ -32,7 +32,7 @@ Parameter =   VELOCITYCOEF			1.2
 Parameter =   VELOCITYRATIO			60
 Parameter =   KINEMVELCOEF			3.1
 Parameter =   FLOWEXP			0.31
-Parameter =   CHANNELROUGHNESS			0.04
+Parameter =   CHANNELROUGHNESS			0.045
 Parameter =   CHANNELWIDTHCOEFF			1.2
 Parameter =   CHANNELWIDTHEXPNT			0.54
 Parameter =   CHANNELWIDTHFILE			
@@ -180,7 +180,7 @@ Hydrograph File Extension: 	mrf
 Channel Characteristics:
 
 Kinematic velocity coefficient: 3.100000
-Roughness coefficient: 		0.040000
+Roughness coefficient: 		0.045000
 Channel width: 			Variable
 
 Channel widths determined from geomorphic relations...
