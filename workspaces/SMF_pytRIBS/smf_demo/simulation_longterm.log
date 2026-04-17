@@ -32,7 +32,7 @@ Parameter =   VELOCITYCOEF			1.2
 Parameter =   VELOCITYRATIO			60
 Parameter =   KINEMVELCOEF			3.1
 Parameter =   FLOWEXP			0.31
-Parameter =   CHANNELROUGHNESS			0.045
+Parameter =   CHANNELROUGHNESS			0.04
 Parameter =   CHANNELWIDTHCOEFF			1.2
 Parameter =   CHANNELWIDTHEXPNT			0.54
 Parameter =   CHANNELWIDTHFILE			
@@ -180,7 +180,7 @@ Hydrograph File Extension: 	mrf
 Channel Characteristics:
 
 Kinematic velocity coefficient: 3.100000
-Roughness coefficient: 		0.045000
+Roughness coefficient: 		0.040000
 Channel width: 			Variable
 
 Channel widths determined from geomorphic relations...
@@ -311,11 +311,11 @@ Hydrologic Simulation begins...
  tRIBS Water Balance Calculations
 
  Basin Rainfall = 0.000000 (m3)
- Basin Evaporation = 3.209745 (m3)
+ Basin Evaporation = 3.186134 (m3)
  Basin Runoff = 0.000000 (m3)
  Basin Canopy Storage = 0.000000 (m3)
- Basin Unsaturated Zone Storage = 1292.961364 (m3)
- Basin Saturated Zone Storage = 99.183268 (m3)
+ Basin Unsaturated Zone Storage = 1292.961276 (m3)
+ Basin Saturated Zone Storage = 99.183454 (m3)
 -----------------------------------
 
 
